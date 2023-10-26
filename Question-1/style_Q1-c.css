@@ -1,0 +1,21 @@
+
+/* target the anchor tag with attribute "href" and change color to red and remove the text underline */
+
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+
+/* Target the anchor tag with the attribute of class name active”, change the text color, and provide the text
+style properties with underlining */
+a[class="active"]{
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* Target the anchor tag with the attribute of the target whose value is _self” and change the background
+color. */
+a[target="_self"]{
+    background-color: #8a2be2;
+}

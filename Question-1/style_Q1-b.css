@@ -1,0 +1,16 @@
+
+/* target all the anchor tags and change the text color to red */
+li > a{
+    color: red;
+}
+
+/* target only the first <h2> tag and change the text and background color */
+nav > h2:first-child{
+    background-color: #000;
+    color: rgb(217, 192, 255);
+}
+
+/* select the first <p> tag and change the text color to red. */
+div + p{
+    color: red;
+}

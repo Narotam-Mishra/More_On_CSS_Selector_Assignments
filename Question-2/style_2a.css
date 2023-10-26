@@ -1,0 +1,6 @@
+/* use of Descendant combinator selector */
+
+ul *{
+   list-style: none;
+   text-decoration: none; 
+}

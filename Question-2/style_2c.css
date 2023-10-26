@@ -1,0 +1,11 @@
+
+/* use of Adajacent sibling combinator selector to apply margin between list items */
+
+ul > li{
+    display: inline;
+}
+
+li + li{
+    margin: 20px;
+}
+

@@ -1,0 +1,5 @@
+/* use child comainator to display the menu list item inline */
+
+ul > li{
+    display: inline;
+}

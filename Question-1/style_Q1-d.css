@@ -1,0 +1,18 @@
+
+/* Target the last <p> tag and add ...” i.e. three dots after its value */
+p:last-child:after {
+    content: "...";
+}
+
+
+/* Target the list of bullet points and change the color of the bullet points without changing the list item's value */
+li::marker{
+    color: red;
+}
+
+/* Among the three <p> tags target the 2nd <p> tag, select the first letter of the second <p> tag, and change the
+color to red Also increase the font size to 30px */
+p:nth-of-type(2):first-letter{
+    color: red;
+    font-size: 30px;
+}
